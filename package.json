@@ -1,0 +1,12 @@
+{
+  "name": "gather-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/sdk.test.cjs",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
